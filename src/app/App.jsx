@@ -1,7 +1,7 @@
 import './App.scss';
-import { PageWelcome } from './pages/PageWelcome';
-import { PageBooks } from './pages/PageBooks';
-import { PageCart } from './pages/PageCart';
+import { PageWelcome } from '../common/pages/PageWelcome';
+import { PageBooks } from '../common/pages/PageBooks';
+import { PageCart } from '../common/pages/PageCart';
 import { NavLink, Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
