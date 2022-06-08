@@ -8,6 +8,7 @@ export const PageBooks = () => {
 		<div className="page_books">
 			<h2>Books</h2>
 			<button onClick={() => dispatch(add())}>Add book</button>
+			<button onClick={() => dispatch(subtract())}>Remove book</button>
 		</div>
 	)
 }
