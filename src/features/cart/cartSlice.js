@@ -8,14 +8,14 @@ export const cartSlice = createSlice({
 	name: 'cart',
 	initialState,
 	reducers: {
-		add: (state) => {
+		addItem: (state) => {
 			state.items.push('book');
 		},
-		subtract: (state) => {
+		removeItem: (state) => {
 			state.items.pop();
 		},
 	},
 });
 
-export const { add, subtract } = cartSlice.actions;
+export const {addItem, removeItem} = cartSlice.actions;
 export default cartSlice.reducer;
