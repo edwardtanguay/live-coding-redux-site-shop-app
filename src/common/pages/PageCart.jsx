@@ -8,7 +8,7 @@ export const PageCart = () => {
 			<p>There are {items.length} books.</p>
 			<ul>
 				{items.map((item, index) => {
-					return <li key={index}>{item}</li>;
+					return <li key={index}>{item.title}</li>;
 				})}
 			</ul>
 		</div>
