@@ -15,8 +15,8 @@ export const cartSlice = createSlice({
 		removeItem: (state) => {
 			state.items.pop();
 		},
-		changeCustomerName: (state, payload) => {
-			state.customerName = payload 
+		changeCustomerName: (state, action) => {
+			state.customerName = action.payload 
 		}
 	},
 });
